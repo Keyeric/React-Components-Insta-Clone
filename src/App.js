@@ -19,7 +19,9 @@ const App = () => {
   const [data] = useState(dummyData);
   return (
     <div className="App">
-      {/* Add components here  and pass props where appropriate */}
+      {/* Add components here  and pass props where appropriate */
+      <PostsPage postData = {data} />
+      }
     </div>
   );
 };

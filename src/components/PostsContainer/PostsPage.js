@@ -10,7 +10,7 @@ const PostsPage = props => {
       {props.postData.map(p => (
         <div className="box">
           <Post
-            post={p}
+            postData={p}
           />
         </div>
       ))}
